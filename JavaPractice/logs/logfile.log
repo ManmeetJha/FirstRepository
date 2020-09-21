@@ -1,0 +1,40 @@
+INFO  | 2020-09-20 22:13:10 | [main] javapractice.App (App.java:16) - Hello Worldwill be printed at debug
+ERROR | 2020-09-20 22:13:10 | [main] javapractice.App (App.java:17) - Hello Worldwill be printed at debug
+WARN  | 2020-09-20 22:13:10 | [main] javapractice.App (App.java:18) - Hello Worldwill be printed at debug
+FATAL | 2020-09-20 22:13:10 | [main] javapractice.App (App.java:19) - Hello Worldwill be printed at debug
+INFO  | 2020-09-20 22:13:10 | [main] javapractice.App (App.java:20) - Append String:Hello World
+INFO  | 2020-09-20 22:13:43 | [main] javapractice.App (App.java:16) - Hello Worldwill be printed at info
+ERROR | 2020-09-20 22:13:43 | [main] javapractice.App (App.java:17) - Hello Worldwill be printed at error
+WARN  | 2020-09-20 22:13:43 | [main] javapractice.App (App.java:18) - Hello Worldwill be printed at warn
+FATAL | 2020-09-20 22:13:43 | [main] javapractice.App (App.java:19) - Hello Worldwill be printed at fatal
+INFO  | 2020-09-20 22:13:43 | [main] javapractice.App (App.java:20) - Append String:Hello World
+INFO  | 2020-09-20 22:14:24 | [main] javapractice.App (App.java:16) - Hello Worldwill be printed at info
+ERROR | 2020-09-20 22:14:24 | [main] javapractice.App (App.java:17) - Hello Worldwill be printed at error
+WARN  | 2020-09-20 22:14:24 | [main] javapractice.App (App.java:18) - Hello Worldwill be printed at warn
+FATAL | 2020-09-20 22:14:24 | [main] javapractice.App (App.java:19) - Hello Worldwill be printed at fatal
+INFO  | 2020-09-20 22:14:24 | [main] javapractice.App (App.java:20) - Append String:Hello World
+ERROR | 2020-09-20 22:16:04 | [main] javapractice.App (App.java:17) - Hello Worldwill be printed at error
+FATAL | 2020-09-20 22:16:04 | [main] javapractice.App (App.java:19) - Hello Worldwill be printed at fatal
+ERROR | 2020-09-21 09:19:01 | [main] javapractice.App (App.java:21) - Hello Worldwill be printed at error
+FATAL | 2020-09-21 09:19:01 | [main] javapractice.App (App.java:23) - Hello Worldwill be printed at fatal
+ERROR | 2020-09-21 09:21:40 | [main] javapractice.App (App.java:21) - Hello Worldwill be printed at error
+FATAL | 2020-09-21 09:21:40 | [main] javapractice.App (App.java:23) - Hello Worldwill be printed at fatal
+ERROR | 2020-09-21 09:23:01 | [main] javapractice.App (App.java:21) - Hello Worldwill be printed at error
+FATAL | 2020-09-21 09:23:01 | [main] javapractice.App (App.java:23) - Hello Worldwill be printed at fatal
+ERROR | 2020-09-21 09:57:13 | [main] javapractice.App (App.java:21) - Hello Worldwill be printed at error
+FATAL | 2020-09-21 09:57:13 | [main] javapractice.App (App.java:23) - Hello Worldwill be printed at fatal
+ERROR | 2020-09-21 09:58:01 | [main] javapractice.App (App.java:22) - Hello Worldwill be printed at error
+FATAL | 2020-09-21 09:58:01 | [main] javapractice.App (App.java:24) - Hello Worldwill be printed at fatal
+ERROR | 2020-09-21 09:58:43 | [main] javapractice.App (App.java:22) - Hello Worldwill be printed at error
+FATAL | 2020-09-21 09:58:43 | [main] javapractice.App (App.java:24) - Hello Worldwill be printed at fatal
+INFO  | 2020-09-21 09:59:56 | [main] javapractice.App (App.java:21) - Hello Worldwill be printed at info
+ERROR | 2020-09-21 09:59:56 | [main] javapractice.App (App.java:22) - Hello Worldwill be printed at error
+WARN  | 2020-09-21 09:59:56 | [main] javapractice.App (App.java:23) - Hello Worldwill be printed at warn
+FATAL | 2020-09-21 09:59:56 | [main] javapractice.App (App.java:24) - Hello Worldwill be printed at fatal
+INFO  | 2020-09-21 09:59:56 | [main] javapractice.App (App.java:25) - Append String:Hello World
+INFO  | 2020-09-21 09:59:59 | [main] javapractice.App (App.java:43) - Sum of two numbers is:2
+INFO  | 2020-09-21 12:18:18 | [main] javapractice.App (App.java:21) - Hello Worldwill be printed at info
+ERROR | 2020-09-21 12:18:18 | [main] javapractice.App (App.java:22) - Hello Worldwill be printed at error
+WARN  | 2020-09-21 12:18:18 | [main] javapractice.App (App.java:23) - Hello Worldwill be printed at warn
+FATAL | 2020-09-21 12:18:18 | [main] javapractice.App (App.java:24) - Hello Worldwill be printed at fatal
+INFO  | 2020-09-21 12:18:18 | [main] javapractice.App (App.java:25) - Append String:Hello World
