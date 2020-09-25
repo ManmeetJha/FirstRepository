@@ -7,7 +7,20 @@ public class lineComparision {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Line comparision computation program");
 		Scanner cor = new Scanner(System.in);
+
+		System.out.println("Enter Cordinates of line 1:");
+		Double length1 = length(cor);
+		System.out.println("Enter Cordinates of line 2:");
+		Double length2 = length(cor);
+		if(length1.equals(length2)) {
+			System.out.println("Both lines are equal");
+		}else {
+			System.out.println("Both lines are not equal");
+		}
+
+
 		System.out.println("Length of line is:" + length(cor));
+
 	}
 
 	public static double length(Scanner cor) {
