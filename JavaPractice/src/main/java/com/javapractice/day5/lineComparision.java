@@ -8,10 +8,22 @@ public class lineComparision {
 		System.out.println("Welcome to Line comparision computation program");
 		Scanner cor = new Scanner(System.in);
 
+    
+		System.out.println("Length of line is:" + length(cor));
 		System.out.println("Enter Cordinates of line 1:");
 		Double length1 = length(cor);
 		System.out.println("Enter Cordinates of line 2:");
 		Double length2 = length(cor);
+
+		int comparision = length1.compareTo(length2);
+		if(comparision > 0)
+			System.out.println("Line 1 is greater");
+		if(comparision < 0)
+			System.out.println("Line 2 is greater");
+		else
+			System.out.println("Both lines are equal");
+		
+
 		if(length1.equals(length2)) {
 			System.out.println("Both lines are equal");
 		}else {
@@ -19,7 +31,6 @@ public class lineComparision {
 		}
 
 
-		System.out.println("Length of line is:" + length(cor));
 
 	}
 
