@@ -5,11 +5,24 @@ import java.util.Random;
 public class SnakeAndLadder {
 
 	public static void main(String[] args) {
-		int position = 0;
+
 		System.out.println("SNAKE AND LADDER GAME");
 		System.out.println("Welcome");
+		System.out.println("Player 1:");
+		int count_p1 = count();
+		System.out.println("Player 2:");
+		int count_p2 = count();
+		if (count_p1 < count_p2)
+			System.out.println("Player 1 wins");
+		else if (count_p1 > count_p2)
+			System.out.println("Player 2 wins");
+		else
+			System.out.println("Match is draw");
+	}
 
+	static int count() {
 		Random random = new Random();
+		int position = 0;
 		int count = 0;
 		do {
 			count++;
@@ -30,9 +43,11 @@ public class SnakeAndLadder {
 					position = 0;
 				break;
 			}
+			System.out.println("New Position is:" + position);
 		} while (position != 100);
 
 		System.out.println("count: " + count);
-	}
+		return count;
 
+	}
 }
