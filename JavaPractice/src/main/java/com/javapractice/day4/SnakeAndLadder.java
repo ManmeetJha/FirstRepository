@@ -24,29 +24,37 @@ public class SnakeAndLadder {
 		Random random = new Random();
 		int position = 0;
 		int count = 0;
+		boolean isLadder = false;
 		do {
-			count++;
+			if (!isLadder)
+				count++;
 			int dice = random.nextInt(6) + 1;
 			Random r = new Random();
 			String[] opr = { "No_Play", "Ladder", "Snake" };
 			int r_opr = r.nextInt(opr.length);
-
+			System.out.println(position + "\t" + dice + "\t" + count + "\t" + opr[r_opr]);
 			switch (opr[r_opr]) {
 			case "No_Play":
+				isLadder = false;
 				break;
 			case "Ladder":
+				isLadder = true;
 				if (position + dice <= 100)
 					position += dice;
-				break;
+
+				continue;
 			case "Snake":
+				isLadder = false;
 				if (position - dice < 0)
 					position = 0;
+				else
+					position -= dice;
 				break;
 			}
-			System.out.println("New Position is:" + position);
+//			System.out.println(position + " | ");
 		} while (position != 100);
 
-		System.out.println("count: " + count);
+		System.out.println("\ncount: " + count);
 		return count;
 
 	}
